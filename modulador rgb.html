@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    </head>
+<body>
+    
+    <script src="app.js"></script>
+      <div class="box-flex">
+        <div class="box-label">
+           <p class="red"><strong>(R) Red </strong></p>
+           <p class="green"><strong> (G) Green </strong></p> 
+           <p class="blue"><strong> (B) Blue </strong></p>
+        </div>
+        <div class="box-range">
+            <input type="range" id="rangeRed" name="rangeRed" min="0" max="255" value="0">
+            <input type="range" id="rangeGreen" name="rangeRed" min="0" max="255" value="0">
+            <input type="range" id="rangeBlue" name="rangeRed" min="0" max="255" value="0">
+        </div>
+        <div class="input-values">
+            <input type="text" name="inputRed" id="inputRed" disabled value="0">
+            <input type="text" name="inputGreen" id="inputGreen" disabled value="0">
+            <input type="text" name="inputBlue" id="inputBlue" disabled value="0">
+        </div>
+    </div>
+    <div class="box-color" id="boxRGB"></div>
+    
+    
+    
+     </body>
+</html>
